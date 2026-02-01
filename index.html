@@ -28,7 +28,6 @@ body{
     line-height:1.6;
 }
 
-/* ================= ANIMACIONES ================= */
 @keyframes fadeUp{
     from{opacity:0; transform:translateY(30px);}
     to{opacity:1; transform:translateY(0);}
@@ -43,7 +42,6 @@ body{
 .delay-2{animation-delay:.4s;}
 .delay-3{animation-delay:.6s;}
 
-/* ================= HEADER ================= */
 header{
     text-align:center;
     padding:60px 20px;
@@ -66,7 +64,6 @@ header p{
     color:var(--azul);
 }
 
-/* ================= NAVIDAD ================= */
 .navidad{
     text-align:center;
     padding:30px 20px;
@@ -83,7 +80,6 @@ header p{
     color:#ddd;
 }
 
-/* ================= BOTÓN TIKTOK ================= */
 .tiktok{
     text-align:center;
     margin-top:20px;
@@ -109,7 +105,6 @@ header p{
     transform:scale(1.05);
 }
 
-/* ================= SECTIONS ================= */
 section{
     max-width:1000px;
     margin:auto;
@@ -123,13 +118,11 @@ section h2{
     color:var(--naranja);
 }
 
-/* ================= ABOUT ================= */
 .about{
     text-align:center;
     color:#ddd;
 }
 
-/* ================= DANCES ================= */
 .dances{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
@@ -158,7 +151,6 @@ section h2{
     color:#ccc;
 }
 
-/* ================= CONTACT ================= */
 .contact{
     text-align:center;
 }
@@ -179,8 +171,6 @@ section h2{
     transform:translateY(0);
 }
 
-
-/* ================= FOOTER ================= */
 footer{
     text-align:center;
     padding:25px;
@@ -189,8 +179,7 @@ footer{
     font-size:.9em;
 }
 
-/* ================= RESPONSIVE ================= */
-@media(max-width:600px){
+    @media(max-width:600px){
     header h1{font-size:1.6em;}
     .navidad h2{font-size:1.4em;}
     section h2{font-size:1.6em;}
@@ -210,7 +199,7 @@ function revealOnScroll(){
         if(elementTop < windowHeight - elementVisible){
             el.classList.add("active");
         } else {
-            el.classList.remove("active"); // 👈 desaparece al subir
+            el.classList.remove("active");
         }
     });
 }
@@ -229,14 +218,13 @@ revealOnScroll();
 </header>
 
 <div class="navidad fade delay-1">
-    <h2>🎄 Feliz Navidad y Próspero Año Nuevo 🎆</h2>
+    <h2>🎄 Feliz Navidad y Próspero Año Nuevo</h2>
     <p>
         Este 26 de diciembre, Sumaq Tika les desea
         un nuevo año lleno de cultura y tradición peruana.
     </p>
 
     <div class="tiktok">
-        <!-- CAMBIA EL ENLACE -->
         <a href="https://www.tiktok.com/@sumaqtika.p" target="_blank">Síguenos en TikTok
         </a>
     </div>
@@ -275,14 +263,14 @@ revealOnScroll();
 <section class="fade delay-3">
     <h2>Contacto</h2>
     <div class="contact">
-        <p>📍 Centro Cultural de Danza Sumaq Tika</p>
-        <p>📞 +51 XXX XXX XXX</p>
-        <p>📧 contacto@sumaqtika.pe</p>
+        <p>Centro Cultural de Danza Sumaq Tika</p>
+        <p>XXX XXX XXX</p>
+        <p>contacto@sumaqtika.pe</p>
     </div>
 </section>
 
 <footer class="fade delay-3">
-    © 2025 Sumaq Tika – Agrupación Cultural Artística  
+    2025 Sumaq Tika – Agrupación Cultural Artística  
     <br>🇵🇪 Cultura viva del Perú 🇵🇪
 </footer>
 
