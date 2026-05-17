@@ -1,2 +1,2 @@
 # SumaqTika
-https://sthephano.github.io/SumaqTika/
+https://sthephano.github.io/SumaqTika-Central
